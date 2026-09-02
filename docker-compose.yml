@@ -1,0 +1,7 @@
+services:
+  flask:
+    image: flask-app:latest
+    container_name: azam-flask
+    ports:
+      - "5000:5000"
+
